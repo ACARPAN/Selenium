@@ -18,6 +18,7 @@ public class practice11 {
 		WebElement username = driver.findElement(By.cssSelector("input[placeholder='Username']"));
 		WebElement password = driver.findElement(By.cssSelector("input[type='password']"));
 		WebElement loginButton = driver.findElement(By.cssSelector("button[type='submit']"));
+		driver.close();
 
 	}
 
