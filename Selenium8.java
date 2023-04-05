@@ -33,6 +33,7 @@ public class Selenium8 {
 		System.out.println(p.x);
 		System.out.println(p.y);
 
+		//Program5....grtAttribute()
 		WebElement aa = driver.findElement(By.cssSelector("#nav-logo-sprites"));
 		String hrefName = aa.getAttribute("href");
 		// System.out.println(hrefName);
